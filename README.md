@@ -8,3 +8,5 @@ httpget("https://pastebin.com") --replace with your link
 
 if httpget then print"" else warn"bruh u fucked a step up" end
 ```
+
+You can rename `httpget()` to anything but it wont work in loadstrings.
