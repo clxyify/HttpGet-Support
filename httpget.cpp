@@ -7,6 +7,7 @@ static int httpget(DWORD getdeeznuts)//fixed
   url = "";//clear the url queue (we dont even need it)
   return getdeeznuts;//i hate to return nuts
 }
+//if any error on the Execute() code just put Execute(dwn); and their ya go
 
 //TODO: register httpget() inside of lua enviroment
 
