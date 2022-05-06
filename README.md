@@ -17,4 +17,4 @@ You can rename `httpget()` to anything but it wont work in loadstrings.
 Created project 'HttpGet-Support'.
 
 # May 6th
-Fixed tostring and improved strings.
+Improved HttpGet function 2x better.
