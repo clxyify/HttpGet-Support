@@ -1,8 +1,11 @@
-static int httpget(DWORD getdeeznuts)
+static int httpget(DWORD getdeeznuts)//fixed
 {
   string url = r_lua_tostring(-1, getdeeznuts);//need tostring or tolstring for this
-  Execute(DownloadURL(url));//download url (replace Execute() with your exec function)
-  return getdeeznuts;//what
+  string dwn = DownloadURL(url);//let it download
+  Sleep(0x50);//dont know
+  Execute(dwn + "\n\nprint'support clxyify by crediting him u skid'");//download url (replace Execute() with your exec function)
+  url = "";//clear the url queue (we dont even need it)
+  return getdeeznuts;//i hate to return nuts
 }
 
 //TODO: register httpget() inside of lua enviroment
