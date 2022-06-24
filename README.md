@@ -7,6 +7,9 @@ httpget("https://pastebin.com") --replace with your link
 --may be slow at some times depending on your internet download speed
 
 if httpget then print"" else warn"bruh u fucked a step up" end
+
+--edit: june 24th working with loadstring!
+loadstring(httpget("pastebin.com")() --working ;)
 ```
 
 You can rename `httpget()` to anything but it wont work in loadstrings.
